@@ -6,6 +6,7 @@ class ButtonWithParagraph extends Component {
     this.state = {
       showParagraph: false,
     };
+    this.toggle = this.toggle.bind(this);
   }
 
   toggle() {
