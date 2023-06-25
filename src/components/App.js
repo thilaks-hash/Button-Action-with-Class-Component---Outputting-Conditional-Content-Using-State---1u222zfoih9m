@@ -6,7 +6,6 @@ class ButtonWithParagraph extends Component {
     this.state = {
       showParagraph: false,
     };
-    this.toggle = this.toggle.bind(this);
   }
 
   toggle() {
@@ -17,7 +16,7 @@ class ButtonWithParagraph extends Component {
     const { showParagraph } = this.state;
 
     return (
-      <div>
+      <div id="main">
         <button id="click" onClick={this.toggle}>
           Click
         </button>
